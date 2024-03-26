@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TypeScript</title>
     <link rel="stylesheet" href="/src/css/stylesheet.css">
+    <script type="module" src="/src/js/main.ts"></script>
 </head>
 <body>
     <div id="container">
         <div id="form">
             <form>
                 <label for="kurskod">Kurskod:</label>
-                <input type="text" id="kurskod" name="kurskod">
+                <input type="text" id="kurskod" name="kurskod" placeholder="Kurskod">
 
                 <label for="kursnamn">Kursnamn:</label>
-                <input type="text" id="kursnamn" name="kursnamn">
+                <input type="text" id="kursnamn" name="kursnamn" placeholder="Kursnamn">
 
                 <div id="progression-all">
-                    <label for="progression">Progression:</label><br>
+                    Progression:<br>
                     <input type="radio" id="a" name="progression" value="A">
                     <label for="a">A</label><br>
                     <input type="radio" id="b" name="progression" value="B">
@@ -27,11 +28,15 @@
                 </div>
 
                 <label for="lank">Länk:</label>
-                <input type="text" id="lank" name="lank">
+                <input type="text" id="lank" name="lank" placeholder="Länk till kursen">
 
-                <input type="submit" value="Spara">
+                <input type="submit" id="submit" value="Spara">
                 <input type="submit" value="Ta bort">
             </form>
+
+            <div id="output">
+
+            </div>
         </div>
     </div>
 </body>

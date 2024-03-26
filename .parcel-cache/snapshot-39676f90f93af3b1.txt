@@ -1,9 +1,4 @@
 5850
-68C:\Users\ozgur\Desktop\ts-tessta\node_modules\csso\cjs\clean\Raw.cjs133558207991389379 0
-101C:\Users\ozgur\Desktop\ts-tessta\node_modules\caniuse-lite\data\features\css-container-query-units.js133558208000279385 0
-66C:\Users\ozgur\Desktop\ts-tessta\node_modules\term-size\index.d.ts133558207987349381 0
-91C:\Users\ozgur\Desktop\ts-tessta\node_modules\caniuse-lite\data\features\css-containment.js133558208000329393 0
-39C:\Users\ozgur\Desktop\ts-tessta\src\js133558209092332184 1
 65C:\Users\ozgur\Desktop\ts-tessta\node_modules\svgo\lib\types.d.ts133558207991119375 0
 79C:\Users\ozgur\Desktop\ts-tessta\node_modules\caniuse-lite\data\features\let.js133558208012509377 0
 56C:\Users\ozgur\Desktop\ts-tessta\node_modules\nullthrows133558207985469515 1
@@ -25,7 +20,7 @@
 111C:\Users\ozgur\Desktop\ts-tessta\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\index.d.ts.map133558207989629391 0
 73C:\Users\ozgur\Desktop\ts-tessta\node_modules\svgo\plugins\mergeStyles.js133558207993909389 0
 82C:\Users\ozgur\Desktop\ts-tessta\node_modules\@parcel\core\test\fixtures\glob-like133558207989439396 1
-43C:\Users\ozgur\Desktop\ts-tessta\.gitignore133558208713569345 0
+43C:\Users\ozgur\Desktop\ts-tessta\.gitignore133559068027481810 0
 77C:\Users\ozgur\Desktop\ts-tessta\node_modules\@parcel\workers\src\cpuCount.js133558207988779417 0
 54C:\Users\ozgur\Desktop\ts-tessta\node_modules\error-ex133558207983819397 1
 84C:\Users\ozgur\Desktop\ts-tessta\node_modules\css-tree\lib\syntax\node\Identifier.js133558208003239434 0
@@ -48,7 +43,7 @@
 58C:\Users\ozgur\Desktop\ts-tessta\node_modules\css-tree\cjs133558207999559402 1
 54C:\Users\ozgur\Desktop\ts-tessta\node_modules\escalade133558207986569383 1
 95C:\Users\ozgur\Desktop\ts-tessta\node_modules\caniuse-lite\data\features\css-read-only-write.js133558208004269388 0
-37C:\Users\ozgur\Desktop\ts-tessta\dist133558869404386288 1
+37C:\Users\ozgur\Desktop\ts-tessta\dist133559068081565086 1
 77C:\Users\ozgur\Desktop\ts-tessta\node_modules\@parcel\utils\test\input\config133558207997959404 1
 80C:\Users\ozgur\Desktop\ts-tessta\node_modules\mdn-data\css\selectors.schema.json133558207990019393 0
 90C:\Users\ozgur\Desktop\ts-tessta\node_modules\@parcel\transformer-postcss\src\constants.js133558207983709409 0
@@ -85,14 +80,19 @@
 84C:\Users\ozgur\Desktop\ts-tessta\node_modules\@swc\helpers\_\_construct\package.json133558208005399381 0
 71C:\Users\ozgur\Desktop\ts-tessta\node_modules\semver\functions\parse.js133558207991149409 0
 73C:\Users\ozgur\Desktop\ts-tessta\node_modules\.bin\update-browserslist-db133558208019939541 0
-47C:\Users\ozgur\Desktop\ts-tessta\src\index.html133558868602585845 0
+47C:\Users\ozgur\Desktop\ts-tessta\src\index.html133559068077421592 0
 93C:\Users\ozgur\Desktop\ts-tessta\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\midl.c133558207994539384 0
 77C:\Users\ozgur\Desktop\ts-tessta\node_modules\@swc\helpers\cjs\_ts_values.cjs133558207996169379 0
 82C:\Users\ozgur\Desktop\ts-tessta\node_modules\svgo\plugins\cleanupNumericValues.js133558207992739382 0
+68C:\Users\ozgur\Desktop\ts-tessta\node_modules\csso\cjs\clean\Raw.cjs133558207991389379 0
+101C:\Users\ozgur\Desktop\ts-tessta\node_modules\caniuse-lite\data\features\css-container-query-units.js133558208000279385 0
+66C:\Users\ozgur\Desktop\ts-tessta\node_modules\term-size\index.d.ts133558207987349381 0
+91C:\Users\ozgur\Desktop\ts-tessta\node_modules\caniuse-lite\data\features\css-containment.js133558208000329393 0
+39C:\Users\ozgur\Desktop\ts-tessta\src\js133558209092332184 1
 80C:\Users\ozgur\Desktop\ts-tessta\node_modules\entities\lib\decode_codepoint.d.ts133558207989889401 0
 56C:\Users\ozgur\Desktop\ts-tessta\node_modules\color-name133558207983849399 1
 84C:\Users\ozgur\Desktop\ts-tessta\node_modules\term-size\vendor\windows\term-size.exe133558207985739397 0
-47C:\Users\ozgur\Desktop\ts-tessta\src\js\main.ts133558799785751174 0
+47C:\Users\ozgur\Desktop\ts-tessta\src\js\main.ts133559068003285865 0
 55C:\Users\ozgur\Desktop\ts-tessta\node_modules\callsites133558207984639387 1
 66C:\Users\ozgur\Desktop\ts-tessta\node_modules\braces\lib\expand.js133558207986669384 0
 83C:\Users\ozgur\Desktop\ts-tessta\node_modules\type-fest\source\merge-exclusive.d.ts133558207989789412 0
@@ -110,11 +110,11 @@
 86C:\Users\ozgur\Desktop\ts-tessta\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb133558208000989396 1
 126C:\Users\ozgur\Desktop\ts-tessta\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\TypeSelector.js133558207999219390 0
 96C:\Users\ozgur\Desktop\ts-tessta\node_modules\@parcel\transformer-react-refresh-wrap\src\helpers133558207986519433 1
-55C:\Users\ozgur\Desktop\ts-tessta\src\css\stylesheet.css133558869404016306 0
-53C:\Users\ozgur\Desktop\ts-tessta\node_modules\is-json133558207985809380 1
+55C:\Users\ozgur\Desktop\ts-tessta\src\css\stylesheet.css133559068043484762 0
 106C:\Users\ozgur\Desktop\ts-tessta\node_modules\@parcel\core\test\fixtures\local-plugin-config-pkg\.parcelrc133558207988339461 0
 78C:\Users\ozgur\Desktop\ts-tessta\node_modules\css-what\lib\commonjs\types.d.ts133558207990419444 0
 59C:\Users\ozgur\Desktop\ts-tessta\node_modules\dotenv-expand133558207985279404 1
+53C:\Users\ozgur\Desktop\ts-tessta\node_modules\is-json133558207985809380 1
 103C:\Users\ozgur\Desktop\ts-tessta\node_modules\dom-serializer\node_modules\entities\lib\maps\legacy.json133558207986989419 0
 107C:\Users\ozgur\Desktop\ts-tessta\node_modules\caniuse-lite\data\features\mdn-css-backdrop-pseudo-element.js133558208013189382 0
 79C:\Users\ozgur\Desktop\ts-tessta\node_modules\css-tree\lib\syntax\node\index.js133558208003959399 0
@@ -1118,6 +1118,8 @@
 91C:\Users\ozgur\Desktop\ts-tessta\node_modules\@parcel\runtime-js\src\helpers\.eslintrc.json133558207992669410 0
 82C:\Users\ozgur\Desktop\ts-tessta\node_modules\@swc\core\bindings\binding_core_wasm133558207987319396 1
 79C:\Users\ozgur\Desktop\ts-tessta\node_modules\lightningcss\node\targets.js.flow133558207986489392 0
+80C:\Users\ozgur\Desktop\ts-tessta\node_modules\css-tree\cjs\syntax\node\Ratio.cjs133558207997489396 0
+77C:\Users\ozgur\Desktop\ts-tessta\node_modules\caniuse-lite\data\regions\LY.js133558208012899387 0
 73C:\Users\ozgur\Desktop\ts-tessta\node_modules\svgo\plugins\removeXlink.js133558207996419384 0
 94C:\Users\ozgur\Desktop\ts-tessta\node_modules\@swc\core-win32-x64-msvc\swc.win32-x64-msvc.node133558208013169381 0
 69C:\Users\ozgur\Desktop\ts-tessta\node_modules\is-extglob\package.json133558207981129389 0
@@ -3317,8 +3319,6 @@
 86C:\Users\ozgur\Desktop\ts-tessta\node_modules\css-tree\cjs\syntax\node\Parentheses.cjs133558207996889401 0
 83C:\Users\ozgur\Desktop\ts-tessta\node_modules\@parcel\transformer-babel\src\flow.js133558207988099396 0
 96C:\Users\ozgur\Desktop\ts-tessta\node_modules\css-tree\cjs\syntax\node\PseudoElementSelector.cjs133558207997419381 0
-80C:\Users\ozgur\Desktop\ts-tessta\node_modules\css-tree\cjs\syntax\node\Ratio.cjs133558207997489396 0
-77C:\Users\ozgur\Desktop\ts-tessta\node_modules\caniuse-lite\data\regions\LY.js133558208012899387 0
 69C:\Users\ozgur\Desktop\ts-tessta\node_modules\@parcel\core\index.d.ts133558208004699401 0
 78C:\Users\ozgur\Desktop\ts-tessta\node_modules\css-tree\cjs\syntax\node\Raw.cjs133558207997559426 0
 85C:\Users\ozgur\Desktop\ts-tessta\node_modules\caniuse-lite\data\features\mpeg-dash.js133558208013829394 0
@@ -5844,8 +5844,8 @@
 59C:\Users\ozgur\Desktop\ts-tessta\node_modules\.bin\svgo.ps1133558208019949382 0
 77C:\Users\ozgur\Desktop\ts-tessta\node_modules\.bin\update-browserslist-db.cmd133558208019939541 0
 77C:\Users\ozgur\Desktop\ts-tessta\node_modules\.bin\update-browserslist-db.ps1133558208019939541 0
-55C:\Users\ozgur\Desktop\ts-tessta\dist\index.90c5fab6.js133558845016788002 0
-59C:\Users\ozgur\Desktop\ts-tessta\dist\index.90c5fab6.js.map133558845016867889 0
-48C:\Users\ozgur\Desktop\ts-tessta\dist\index.html133558868603935339 0
-56C:\Users\ozgur\Desktop\ts-tessta\dist\index.fb3f94c9.css133558869404326263 0
-60C:\Users\ozgur\Desktop\ts-tessta\dist\index.fb3f94c9.css.map133558869404366253 0
+55C:\Users\ozgur\Desktop\ts-tessta\dist\index.90c5fab6.js133559068081263195 0
+59C:\Users\ozgur\Desktop\ts-tessta\dist\index.90c5fab6.js.map133559068081332924 0
+56C:\Users\ozgur\Desktop\ts-tessta\dist\index.fb3f94c9.css133559068081494869 0
+48C:\Users\ozgur\Desktop\ts-tessta\dist\index.html133559068081514861 0
+60C:\Users\ozgur\Desktop\ts-tessta\dist\index.fb3f94c9.css.map133559068081550379 0

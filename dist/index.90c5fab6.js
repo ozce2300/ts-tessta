@@ -584,18 +584,46 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"hYrgI":[function(require,module,exports) {
-function firstElement(array) {
-    return array[0];
-}
-let numberArray = [
-    1,
-    2,
-    3,
-    4,
-    5
-];
-let firstNumber = firstElement(numberArray);
-console.log(firstNumber); // Output: 1
+"use strict";
+document.addEventListener("DOMContentLoaded", function() {
+    const kurskodEl = document.getElementById("kurskod");
+    const kursnamnEl = document.getElementById("kursnamn");
+    const aEl = document.getElementById("a");
+    const bEl = document.getElementById("b");
+    const cEl = document.getElementById("c");
+    const lankEl = document.getElementById("lank");
+    const sparaEl = document.getElementById("submit");
+    const outputDiv = document.getElementById("output");
+    sparaEl.addEventListener("click", function(event) {
+        event.preventDefault();
+        const kurskod = kurskodEl.value;
+        const kursnamn = kursnamnEl.value;
+        const valtAlternativ = aEl.checked ? "A" : bEl.checked ? "B" : cEl.checked ? "C" : "Ej valt progression";
+        const lank = lankEl.value;
+        const kursInfo = {
+            code: kurskod,
+            name: kursnamn,
+            progression: valtAlternativ,
+            syllabus: lank
+        };
+        const kursInfoElement = document.createElement("ul");
+        kursInfoElement.innerHTML += `
+<li>Kurskod: ${kursInfo.code}</li>
+<li>Kursnamn: ${kursInfo.name}</li>
+<li>Progression: ${kursInfo.progression}</li>
+<li>L\xe4nk: <a href="${kursInfo.syllabus}"> L\xe4nk</a></li>
+
+`;
+        if (outputDiv) outputDiv.appendChild(kursInfoElement);
+        // Återställ formuläret
+        kurskodEl.value = "";
+        kursnamnEl.value = "";
+        aEl.checked = false;
+        bEl.checked = false;
+        cEl.checked = false;
+        lankEl.value = "";
+    });
+});
 
 },{}]},["3L0Bc","hYrgI"], "hYrgI", "parcelRequire4253")
 
