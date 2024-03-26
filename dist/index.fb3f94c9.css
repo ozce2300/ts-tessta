@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+#form {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  box-shadow: 0 0 10px #0000001a;
+}
+
+#progression-all {
+  margin: 10px 0;
+}
+
+#form input[type="text"], #form input[type="checkbox"] {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 8px;
+}
+
+#form input[type="submit"] {
+  color: #fff;
+  cursor: pointer;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+/*# sourceMappingURL=index.fb3f94c9.css.map */
