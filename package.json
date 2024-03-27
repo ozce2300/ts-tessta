@@ -5,7 +5,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "build parce"
+    "build": "parcel build"
   },
   "author": "",
   "license": "ISC",
