@@ -43,7 +43,7 @@
 58C:\Users\ozgur\Desktop\ts-tessta\node_modules\css-tree\cjs133558207999559402 1
 54C:\Users\ozgur\Desktop\ts-tessta\node_modules\escalade133558207986569383 1
 95C:\Users\ozgur\Desktop\ts-tessta\node_modules\caniuse-lite\data\features\css-read-only-write.js133558208004269388 0
-37C:\Users\ozgur\Desktop\ts-tessta\dist133559068081565086 1
+37C:\Users\ozgur\Desktop\ts-tessta\dist133560288911915541 1
 77C:\Users\ozgur\Desktop\ts-tessta\node_modules\@parcel\utils\test\input\config133558207997959404 1
 80C:\Users\ozgur\Desktop\ts-tessta\node_modules\mdn-data\css\selectors.schema.json133558207990019393 0
 90C:\Users\ozgur\Desktop\ts-tessta\node_modules\@parcel\transformer-postcss\src\constants.js133558207983709409 0
@@ -80,7 +80,7 @@
 84C:\Users\ozgur\Desktop\ts-tessta\node_modules\@swc\helpers\_\_construct\package.json133558208005399381 0
 71C:\Users\ozgur\Desktop\ts-tessta\node_modules\semver\functions\parse.js133558207991149409 0
 73C:\Users\ozgur\Desktop\ts-tessta\node_modules\.bin\update-browserslist-db133558208019939541 0
-47C:\Users\ozgur\Desktop\ts-tessta\src\index.html133559068077421592 0
+47C:\Users\ozgur\Desktop\ts-tessta\src\index.html133559508685210962 0
 93C:\Users\ozgur\Desktop\ts-tessta\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\midl.c133558207994539384 0
 77C:\Users\ozgur\Desktop\ts-tessta\node_modules\@swc\helpers\cjs\_ts_values.cjs133558207996169379 0
 82C:\Users\ozgur\Desktop\ts-tessta\node_modules\svgo\plugins\cleanupNumericValues.js133558207992739382 0
@@ -92,7 +92,7 @@
 80C:\Users\ozgur\Desktop\ts-tessta\node_modules\entities\lib\decode_codepoint.d.ts133558207989889401 0
 56C:\Users\ozgur\Desktop\ts-tessta\node_modules\color-name133558207983849399 1
 84C:\Users\ozgur\Desktop\ts-tessta\node_modules\term-size\vendor\windows\term-size.exe133558207985739397 0
-47C:\Users\ozgur\Desktop\ts-tessta\src\js\main.ts133559068003285865 0
+47C:\Users\ozgur\Desktop\ts-tessta\src\js\main.ts133560291695288717 0
 55C:\Users\ozgur\Desktop\ts-tessta\node_modules\callsites133558207984639387 1
 66C:\Users\ozgur\Desktop\ts-tessta\node_modules\braces\lib\expand.js133558207986669384 0
 83C:\Users\ozgur\Desktop\ts-tessta\node_modules\type-fest\source\merge-exclusive.d.ts133558207989789412 0
@@ -5844,8 +5844,8 @@
 59C:\Users\ozgur\Desktop\ts-tessta\node_modules\.bin\svgo.ps1133558208019949382 0
 77C:\Users\ozgur\Desktop\ts-tessta\node_modules\.bin\update-browserslist-db.cmd133558208019939541 0
 77C:\Users\ozgur\Desktop\ts-tessta\node_modules\.bin\update-browserslist-db.ps1133558208019939541 0
-55C:\Users\ozgur\Desktop\ts-tessta\dist\index.90c5fab6.js133559068081263195 0
-59C:\Users\ozgur\Desktop\ts-tessta\dist\index.90c5fab6.js.map133559068081332924 0
-56C:\Users\ozgur\Desktop\ts-tessta\dist\index.fb3f94c9.css133559068081494869 0
-48C:\Users\ozgur\Desktop\ts-tessta\dist\index.html133559068081514861 0
-60C:\Users\ozgur\Desktop\ts-tessta\dist\index.fb3f94c9.css.map133559068081550379 0
+56C:\Users\ozgur\Desktop\ts-tessta\dist\index.fb3f94c9.css133559142774002701 0
+60C:\Users\ozgur\Desktop\ts-tessta\dist\index.fb3f94c9.css.map133559142774122278 0
+48C:\Users\ozgur\Desktop\ts-tessta\dist\index.html133559508688031803 0
+55C:\Users\ozgur\Desktop\ts-tessta\dist\index.90c5fab6.js133560288911845551 0
+59C:\Users\ozgur\Desktop\ts-tessta\dist\index.90c5fab6.js.map133560288911886512 0
