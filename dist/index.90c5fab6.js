@@ -600,6 +600,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 updateCourseInfo(kursInfo, currentUpdateIndex);
                 currentUpdateIndex = null;
             } else {
+                // Kontrollera om kurskoden redan finns
+                if (isCourseCodeDuplicate(kursInfo.code)) {
+                    const errorElement = document.getElementById("error");
+                    if (errorElement) errorElement.innerHTML = "<p>Kurskoden finns redan</p>";
+                    return; // Avbryt vidare åtgärder
+                }
                 // Lägg till ny kurs
                 storeCourseInfo(kursInfo, courseCount);
                 courseCount++;
@@ -609,7 +615,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
     // Lägg till händelselyssnare för att rensa lagringen
-    taBortEl.addEventListener("click", clearStorage);
+    if (taBortEl) taBortEl.addEventListener("click", clearStorage);
     // Ladda tidigare sparad kursinfo när sidan laddas
     loadData();
 });
@@ -660,12 +666,12 @@ function resetForm() {
     const bEl = document.getElementById("b");
     const cEl = document.getElementById("c");
     const lankEl = document.getElementById("lank");
-    kurskodEl.value = "";
-    kursnamnEl.value = "";
-    aEl.checked = false;
-    bEl.checked = false;
-    cEl.checked = false;
-    lankEl.value = "";
+    if (kurskodEl) kurskodEl.value = "";
+    if (kursnamnEl) kursnamnEl.value = "";
+    if (aEl) aEl.checked = false;
+    if (bEl) bEl.checked = false;
+    if (cEl) cEl.checked = false;
+    if (lankEl) lankEl.value = "";
 }
 function refreshOutput() {
     loadData();
@@ -693,13 +699,23 @@ function populateFormForUpdate(courseInfo, key) {
     const bEl = document.getElementById("b");
     const cEl = document.getElementById("c");
     const lankEl = document.getElementById("lank");
-    kurskodEl.value = courseInfo.code;
-    kursnamnEl.value = courseInfo.name;
-    if (courseInfo.progression === "A") aEl.checked = true;
-    else if (courseInfo.progression === "B") bEl.checked = true;
-    else if (courseInfo.progression === "C") cEl.checked = true;
-    lankEl.value = courseInfo.syllabus;
+    if (kurskodEl) kurskodEl.value = courseInfo.code;
+    if (kursnamnEl) kursnamnEl.value = courseInfo.name;
+    if (aEl) aEl.checked = courseInfo.progression === "A";
+    if (bEl) bEl.checked = courseInfo.progression === "B";
+    if (cEl) cEl.checked = courseInfo.progression === "C";
+    if (lankEl) lankEl.value = courseInfo.syllabus;
     currentUpdateIndex = key;
+}
+function isCourseCodeDuplicate(code) {
+    for(let i = 0; i < localStorage.length; i++){
+        const key = localStorage.key(i);
+        if (key && key.startsWith("course_")) {
+            const courseInfo = JSON.parse(localStorage.getItem(key));
+            if (courseInfo.code === code) return true; // Kurskoden finns redan
+        }
+    }
+    return false; // Kurskoden finns inte
 }
 
 },{}]},["3L0Bc","hYrgI"], "hYrgI", "parcelRequire4253")
